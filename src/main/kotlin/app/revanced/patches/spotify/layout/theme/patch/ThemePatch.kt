@@ -16,7 +16,7 @@ import org.w3c.dom.Element
 @Name("spotify-theme")
 @Description("Applies a monet theme.")
 @ThemeCompatibility
-@Version("0.0.2")
+@Version("0.0.3")
 class ThemePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         context.xmlEditor["res/values/colors.xml"].use { editor ->
