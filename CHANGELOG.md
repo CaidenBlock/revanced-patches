@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CaidenBlock/revanced-patches/compare/v1.0.0...v1.0.1) (2023-01-31)
+
+
+### Bug Fixes
+
+* **spotify/spotify-theme:** Use monet ([4c9b794](https://github.com/CaidenBlock/revanced-patches/commit/4c9b794ba62694c4c3abac51aa928da389db08ab))
+
 # 1.0.0 (2023-01-31)
 
 

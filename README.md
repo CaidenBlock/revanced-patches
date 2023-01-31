@@ -142,7 +142,7 @@ The official Patch bundle provided by ReVanced and the community.
 |:--------:|:--------------:|:-----------------:|
 | `disable-capture-restriction` | Allows capturing Spotify's audio output while screen sharing or screen recording. | all |
 | `hide-premium-navbar` | Removes the premium tab from the navbar. | all |
-| `spotify-theme` | Applies a custom theme. | all |
+| `spotify-theme` | Applies a monet theme. | all |
 </details>
 
 ### [📦 `com.reddit.frontpage`](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
