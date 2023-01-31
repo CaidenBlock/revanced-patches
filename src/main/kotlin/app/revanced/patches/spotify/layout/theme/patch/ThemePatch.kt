@@ -14,9 +14,9 @@ import org.w3c.dom.Element
 @Patch
 @DependsOn([FixLocaleConfigErrorPatch::class])
 @Name("spotify-theme")
-@Description("Applies a custom theme.")
+@Description("Applies a monet theme.")
 @ThemeCompatibility
-@Version("0.0.1")
+@Version("0.0.2")
 class ThemePatch : ResourcePatch {
     override fun execute(context: ResourceContext): PatchResult {
         context.xmlEditor["res/values/colors.xml"].use { editor ->
