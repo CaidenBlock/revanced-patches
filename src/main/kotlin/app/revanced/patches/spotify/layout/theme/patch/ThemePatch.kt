@@ -41,7 +41,7 @@ class ThemePatch : ResourcePatch {
         var backgroundColor: String? by option(
             PatchOption.StringOption(
                 key = "backgroundColor",
-                default = "@android:color/black",
+                default = "@android:color/system_neutral1_900",
                 title = "Background color",
                 description = "The background color. Can be a hex color or a resource reference.",
             )
@@ -49,7 +49,7 @@ class ThemePatch : ResourcePatch {
         var accentColor: String? by option(
             PatchOption.StringOption(
                 key = "accentColor",
-                default = "@android:color/system_accent2_50",
+                default = "@android:color/system_accent1_200",
                 title = "Accent color",
                 description = "The accent color ('spotify green' by default). Can be a hex color or a resource reference.",
             )
@@ -57,7 +57,7 @@ class ThemePatch : ResourcePatch {
         var accentPressedColor: String? by option(
             PatchOption.StringOption(
                 key = "accentPressedColor",
-                default = "#ff169c46",
+                default = "@android:color/system_accent1_300",
                 title = "Pressed accent for the dark theme",
                 description = "The color when accented buttons are pressed, by default slightly darker than accent. Can be a hex color or a resource reference.",
             )
